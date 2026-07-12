@@ -1,9 +1,9 @@
 ## Phase 1: ANSYS Fluent CFD Analysis
-This phase focuses on modeling the film cooling effectiveness of a 2D turbine blade cross-section. The objective is to produce a physically meaningful wall heat flux map while adhering to the 512,000-cell limitation of the ANSYS Student version[cite: 1].
+This phase focuses on modeling the film cooling effectiveness of a 2D turbine blade cross-section. The objective is to produce a physically meaningful wall heat flux map while adhering to the 512,000-cell limitation of the ANSYS Student version.
 
 ### Problem Statement
 * **Geometry**: 2D NACA 4412 profile with a single coolant hole (injection angle: 30°, diameter: 0.5D).
-* **Turbulence Modeling**: $k-\omega$ SST model employed to accurately capture boundary layer separation and jet-in-crossflow interactions at the coolant hole trailing edge[cite: 1].
+* **Turbulence Modeling**: $k-\omega$ SST model employed to accurately capture boundary layer separation and jet-in-crossflow interactions at the coolant hole trailing edge.
 * **Constraint**: Maintain mesh count between 280k–420k cells to ensure quality without exceeding student license limits.
 
 ### Boundary Conditions
